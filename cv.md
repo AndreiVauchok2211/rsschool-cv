@@ -1,63 +1,93 @@
 # **Andrei Vauchok**
 
-### _My contact information_:
+## **Contact information**:
 
-- Tel: 80297429889
-- E-mail: vauchokandrei@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/andrei-vauchok-961913115/)
-- [GitHub](https://github.com/AndreiVauchok2211)
+- **Location**: Minsk, Belarus
+- **Phone**: +375297429889
+- **E-mail**: vauchokandrei@gmail.com
+- **LinkedIn**: [Andrei Vauchok](https://www.linkedin.com/in/andrei-vauchok-961913115/)
+- **GitHub**: [AndreiVauchok2211](https://github.com/AndreiVauchok2211)
+- **Discord**: vauchokandrei#0683
 
 ---
 
-## **Summary**
+### **About me**
 
-_"Hello! My name is Andrei, I want work in IT, I'm good). He conducted professional activities in the field of sports, professionally played football, worked as a teacher, and was engaged in coaching activities. I want to learn programming."_
+_Hello! My name is Andrei, I live in Minsk. Before entering the university and while studying at it, he professionally played football, became the winner of regional and republican football and futsal competitions. After graduating from the university in 2013, with a break in the army, he worked as a physical education teacher in a college, coached student and amateur teams. I am currently working as a Procurement and Purchasing Specialist for a commercial organization. For about six months I have been studying website layout, HTML5, CSS and Javascript on my own - I hope to acquire the relevant knowledge, skills and abilities for employment as a junior front-end developer. I wish you all good luck!)_
 
-## **Skilss**
+### **Skilss**
 
-- Basic knowledge of **_Java_**
-- Basic knowledge of **_JavaScript_**
-- Basic knowledge of **_Git_**
-- Basic knowledge of **_HTML_**
-- Basic knowledge of **_CSS_**
+- _Java_ (Basic)
+- _JavaScript_ (Basic)
+- _Git/GitHub_ (Basic)
+- _HTML5_ (Basic)
+- _CSS3/SASS_ (Basic)
+- _VS Code, IntelliJ IDEA_ (Basic)
+- _Figma_ (Basic)
 
 ### **Code example**
 
-```
-const transactions = [
-  300, 250, -500, -750, -180, 50, 140, -200, -300, 1400, 5000,
-];
+---
 
-const totalDeposited = transactions
-  .filter(trans => trans > 0)
-  .reduce((accum, trans) => accum + trans, 0);
-console.log(totalDeposited);
+**Return the n-th number in the Fibonacci Sequence KATA from CODEWARS**:
+
+_"Write a function that when given a number (n) returns the n-th number in the Fibonacci Sequence."_
+
+```
+function nthFibo(n) {
+  let [previous, current] = [0, 1];
+  for (let i = 1; i < n; i++) {
+    [previous, current] = [current, previous + current];
+  }
+  return previous;
+}
 ```
 
 ---
 
-## **Education**
+### **Courses**
+
+- HTML: Perfect for Beginners on the [code-basics](https://code-basics.com/ru/languages/html) (completed)
+- CSS: Free Online Learning for Beginners on the [code-basics](https://code-basics.com/ru/languages/css) (completed)
+- Modern JavaScript - From Zero to Junior Specialist on the [udemy](https://www.udemy.com/course/javascript-zero-to-junior-developer/) (in progress)
+- Complete course Android + Java from scratch [udemy](https://www.udemy.com/course/android_sumin/) (in progress)
+- RS Schools Course «JavaScript/Front-end» (in progress)
+
+### **Education**
+
+---
 
 - **[Bachelor, Vitebsk State University named after P.M. Masherov, Vitebsk](https://vsu.by/en)**
   - _[Faculty of Physical Culture and Sports](https://vsu.by/en/university/faculties/faculty-of-physical-culture-and-sports.html)_
-- **[Belarusian State University of Physical Education, Minsk](http://ippkbgufk.edu.by/)**
+- **[Belarusian State University of Physical Education, Minsk](https://www.sportedu.by/)**
   - _[Institute for Advanced Studies and Retraining of Managers and Specialists of Physical Culture, Sports and Tourism](http://ippkbgufk.edu.by/)_
-  ***
-
-## **Experience**
-
-- More than 5 years worked as a teacher of physical culture, also showed himself in other areas. I am currently working as a Purchasing Specialist.
 
 ---
 
-## **Languages**
+### **Key Strengths**
 
-- _Belarusian_
-- _Russian_
-- _English_
+- Purposeful
+- Hardworking
+- Responsible
+- Sociable
+- Conscientious
 
-### **English**
+---
 
-- A2/B1
+### **Hobbies**
+
+- Sport
+- Football
+- Literature
+- Anthropology, sports medicine and physiology
+- Cars
+- New technologies
+
+### **Languages**
+
+- Russian - Native
+- Belarusian - Native
+- English - A1
+- Spanish - A1
 
 ---
