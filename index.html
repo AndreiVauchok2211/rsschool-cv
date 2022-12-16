@@ -10,27 +10,28 @@
 </head>
 
 <body>
+
   <header class="header">
-    <div class="container">
-      <div class="container header__container">
-        <nav class="header__navigation">
-          <ul class="navigation">
-            <li class="navigation__link"><a href="#profile">Profile</a></li>
-            <li class="navigation__link"><a href="#contacts">Contacts</a></li>
-            <li class="navigation__link"><a href="#">About me</a></li>
-            <li class="navigation__link"><a href="#skills">Skills</a></li>
-            <li class="navigation__link"><a href="#">Code</a></li>
-            <li class="navigation__link"><a href="#">Projects</a></li>
-            <li class="navigation__link"><a href="#education">Education</a></li>
-            <li class="navigation__link"><a href="#">Strengths</a></li>
-            <li class="navigation__link"><a href="#">Hobbies</a></li>
-            <li class="navigation__link"><a href="#languages">Languages</a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="container header__container">
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__link"><a href="#profile">Profile</a></li>
+          <li class="navigation__link"><a href="#contacts">Contacts</a></li>
+          <li class="navigation__link"><a href="#about-me">About me</a></li>
+          <li class="navigation__link"><a href="#skills">Skills</a></li>
+          <li class="navigation__link"><a href="#courses">Courses</a></li>
+          <li class="navigation__link"><a href="#code">Code</a></li>
+          <li class="navigation__link"><a href="#projects">Projects</a></li>
+          <li class="navigation__link"><a href="#education">Education</a></li>
+          <li class="navigation__link"><a href="#strengths">Strengths</a></li>
+          <li class="navigation__link"><a href="#hobbies">Hobbies</a></li>
+          <li class="navigation__link"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
-    <div class="main__container">
+    <div class="container main__container">
       <div class="column column__left">
         <figure class="figure__left-side"><img class="photo" src="./src/assets/img/Photo.jpg" width="300px"
             alt="photo of Andrei Vauchok"></figure>
@@ -88,19 +89,20 @@
             <ul class="education__list">
               <li class="education__item">
                 <div class="education__date">2009 - 2013</div>
-                <h3 class="education__name"><a class="education__name education__name-link"
-                    href="https://vsu.by/en">Vitebsk State University named after P.M. Masherov</a>
+                <h3 class="education__name"><a class="education__name education__name-link" href="https://vsu.by/en"
+                    target="_blank" title="vsu">Vitebsk State University named after P.M. Masherov</a>
                 </h3>
-                <p class="education__text"><a class="education__text education__text-link"
+                <p class="education__text"><a class="education__text education__text-link" target="_blank"
+                    title="faculty"
                     href="https://vsu.by/en/university/faculties/faculty-of-physical-culture-and-sports.html">Faculty of
                     Physical Culture and Sports</a></p>
               </li>
               <li class="education__item">
                 <div class="education__date">2019</div>
-                <h3 class="education__name"><a class="education__name education__name-link"
-                    href="https://www.sportedu.by/">Belarusian State University of Physical Education</a>
+                <h3 class="education__name"><a class="education__name education__name-link" target="_blank"
+                    title="bgufk" href="https://www.sportedu.by/">Belarusian State University of Physical Education</a>
                 </h3>
-                <p class="education__text"><a class="education__text education__text-link"
+                <p class="education__text"><a class="education__text education__text-link" target="_blank" title="ippk"
                     href="http://ippkbgufk.edu.by/">Institute for Advanced Studies and Retraining of Managers and
                     Specialists of Physical Culture, Sports and Tourism</a></p>
               </li>
@@ -138,12 +140,146 @@
           <h1 class="profile__title">Andrei Vauchok</h1>
           <p class="profile__content">Front-end developer (Beginner)</p>
         </section>
+        <section class="about-me" id="about-me">
+          <div class="container about-me__container">
+            <h2 class="about-me__title">About-me</h2>
+            <p class="about-me__text">Hello! My name is Andrei, I live in Minsk. Before entering the university and
+              while studying at it, he professionally played football, became the winner of regional and republican
+              football and futsal competitions. After graduating from the university in 2013, with a break in the army,
+              he worked as a physical education teacher in a college, coached student and amateur teams. I am currently
+              working as a Procurement and Purchasing Specialist for a commercial organization. For about six months I
+              have been studying website layout, HTML5, CSS and Javascript on my own - I hope to acquire the relevant
+              knowledge, skills and abilities for employment as a junior front-end developer. I wish you all good luck!)
+            </p>
+          </div>
+        </section>
+        <section class="courses" id="courses">
+          <div class="container courses__container">
+            <h2 class="courses__title">Courses</h2>
+            <ul class="courses__list">
+              <li class="courses__item">
+                <a class="courses__link" href="https://code-basics.com/ru/languages/html" target="_blank"
+                  title="code_basic">Code Basics</a>
+                <span class="courses__name">HTML: Perfect for Beginners (completed)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://code-basics.com/ru/languages/css" target="_blank"
+                  title="code_basic">Code Basics</a>
+                <span class="courses__name">CSS: Free Online Learning for Beginners (completed)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://www.udemy.com/course/javascript-zero-to-junior-developer/   "
+                  target="_blank" title="udemy">Udemy</a>
+                <span class="courses__name">Modern JavaScript - From Zero to Junior Specialist (in progress)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://www.udemy.com/course/android_sumin/  
+                " target="_blank" title="udemy">Udemy</a>
+                <span class="courses__name">Complete course Android + Java from scratch (in progress)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link"
+                  href="https://www.udemy.com/course/java_sumin/learn/lecture/23249804?start=0#overview" target="_blank"
+                  title="udemy">Udemy</a>
+                <span class="courses__name">Java from Zero to Junior + Interview Preparation (in progress)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://rs.school/js-stage0/" target="_blank" title="rsschool">RS
+                  School</a>
+                <span class="courses__name">JS/FE Pre-School 2022Q4 (in progress)</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="code" id="code">
+          <div class="container code__container">
+            <h2 class="code__title">Code</h2>
+            <p class="code__task">Return the n-th number in the Fibonacci Sequence KATA from CODEWARS <br>
+              <span class="code__text">"Write a
+                function that when given a number (n) returns the n-th number in the Fibonacci Sequence."</span>
+            <pre class="pre">
+                  <code>function nthFibo(n) {
+                    let [previous, current] = [0, 1];
+                    for (let i = 1; i < n; i++) {
+                      [previous, current] = [current, previous + current];
+                    }
+                    return previous;
+                  }</code>
+                </pre>
+            </p>
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <div class="container projects__container">
+            <h2 class="projects__title">Projects</h2>
+            <ul class="projects__list">
+              <li class="projects__item"><a class="projects__link"
+                  href="https://andreivauchok2211.github.io/rsschool-cv/" target="_blank" title="CV">Curriculum
+                  Vitae</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="strengths" id="strengths">
+          <div class="container strengths__container">
+            <h2 class="strengths__title">Key strengths</h2>
+            <ul class="strengths__list">
+              <li class="strengths__item">Purposeful</li>
+              <li class="strengths__item">Hardworking</li>
+              <li class="strengths__item">Responsible</li>
+              <li class="strengths__item">Sociable</li>
+              <li class="strengths__item">Conscientious</li>
+            </ul>
+          </div>
+        </section>
+        <section class="hobbies" id="hobbies">
+          <div class="container hobbies__container">
+            <h2 class="hobbies__title">Hobbies</h2>
+            <div class="hobbies__wrapper">
+              <div class="hobbies__row">
+                <div class="hobbies__block">
+                  <div class="hobbies__dot"></div>
+                  <p class="hobbies__text">Sport</p>
+                </div>
+                <div class="hobbies__block">
+                  <div class="hobbies__dot"></div>
+                  <p class="hobbies__text">Football</p>
+                </div>
+                <div class="hobbies__block">
+                  <div class="hobbies__dot"></div>
+                  <p class="hobbies__text"> Anthropology, sports medicine and physiology</p>
+                </div>
+              </div>
+              <div class="hobbies__row">
+                <div class="hobbies__block">
+                  <div class="hobbies__dot"></div>
+                  <p class="hobbies__text">Literature</p>
+                </div>
+                <div class="hobbies__block">
+                  <div class="hobbies__dot"></div>
+                  <p class="hobbies__text">Cars</p>
+                </div>
+                <div class="hobbies__block">
+                  <div class="hobbies__dot"></div>
+                  <p class="hobbies__text">New technologies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   </main>
-  <footer></footer>
-  </div>
+  <footer class="foother">
+    <div class="container foother__container">
+      <div class="foother__deveop">
+        <a class="foother__nav-link" target="_blank" title="gith" href="https://github.com/AndreiVauchok2211">Andrei
+          Vauchok</a>
+      </div>
+      <a class="foother__school" href="https://rs.school/js-stage0/" target="_blank" title="rsschool"></a>
+    </div>
+  </footer>
 
+  <script src=""></script>
 </body>
 
 </html>
