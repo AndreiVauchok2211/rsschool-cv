@@ -1,0 +1,8 @@
+.about-me__container {
+}
+
+.about-me__text {
+  padding: 20px 30px;
+  @include font($size: 1.6rem, $weight: 400, $height: 2.6rem);
+  color: $color-header;
+}

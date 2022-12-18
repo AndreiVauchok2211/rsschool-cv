@@ -1,0 +1,22 @@
+.languages__list {
+  padding: 20px 10px 10px 50px;
+}
+
+.languages__item {
+  position: relative;
+  margin-bottom: 5px;
+  @include font($size: 1.8rem, $weight: 500, $height: 2rem);
+  color: $color-contacts;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: $color-header;
+    border-radius: 50%;
+    left: -20px;
+    top: 7px;
+  }
+}

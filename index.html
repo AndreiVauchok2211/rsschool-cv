@@ -6,109 +6,117 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Andrei Vauchok CV</title>
+  <link href="../rsschool-cv/src/assets/scss/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="./src/assets/img/favicon/favicon.ico" type="image/x-icon">
 </head>
 
-<body>
+<body class="body__container">
+
   <header class="header">
-    <div class="container">
-      <div class="container header__container">
-        <nav class="header__navigation">
-          <ul class="navigation">
-            <li class="navigation__link"><a href="#profile">Profile</a></li>
-            <li class="navigation__link"><a href="#contacts">Contacts</a></li>
-            <li class="navigation__link"><a href="#">About me</a></li>
-            <li class="navigation__link"><a href="#skills">Skills</a></li>
-            <li class="navigation__link"><a href="#">Code</a></li>
-            <li class="navigation__link"><a href="#">Projects</a></li>
-            <li class="navigation__link"><a href="#education">Education</a></li>
-            <li class="navigation__link"><a href="#">Strengths</a></li>
-            <li class="navigation__link"><a href="#">Hobbies</a></li>
-            <li class="navigation__link"><a href="#languages">Languages</a></li>
-          </ul>
-        </nav>
-      </div>
+    <div class="container header__container">
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__link"><a href="#profile">Profile</a></li>
+          <li class="navigation__link"><a href="#contacts">Contacts</a></li>
+          <li class="navigation__link"><a href="#about-me">About me</a></li>
+          <li class="navigation__link"><a href="#skills">Skills</a></li>
+          <li class="navigation__link"><a href="#courses">Courses</a></li>
+          <li class="navigation__link"><a href="#code">Code</a></li>
+          <li class="navigation__link"><a href="#projects">Projects</a></li>
+          <li class="navigation__link"><a href="#education">Education</a></li>
+          <li class="navigation__link"><a href="#strengths">Strengths</a></li>
+          <li class="navigation__link"><a href="#hobbies">Hobbies</a></li>
+          <li class="navigation__link"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class="main">
-    <div class="main__container">
+    <div class="container main__container">
       <div class="column column__left">
-        <figure class="figure__left-side"><img class="photo" src="./src/assets/img/Photo.jpg" width="300px"
+        <figure class="figure__left-side"><img class="photo" src="./src/assets/img/images/Photo.jpg" width="380px"
             alt="photo of Andrei Vauchok"></figure>
-        <section class="contacts" id="contacts">
+        <section class="section section__contacts" id="contacts">
           <div class="contacts contacts__container">
-            <h2 class="contacts__title">Contacts</h2>
+            <h2 class="title contacts__title">Contacts</h2>
             <ul class="contacts__list">
               <li class="contact__item">
-                <span class="contact__image contact__image_github"></span>
-                <div class="contact__text">
-                  <a href="https://www.google.com/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.88464,27.5933684,11z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972?hl=ru"
-                    class="contact__link" target="_blank" title="location">Minsk, Belarus</a>
-                </div>
+                <span class="contact__name contact__location"><img class="contact__image"
+                    src="./src/assets/img/icons/location-svg.svg" alt="location">Location: </span>
+                <a href="https://www.google.com/maps/place/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA/@53.88464,27.5933684,11z/data=!3m1!4b1!4m5!3m4!1s0x46dbcfd35b1e6ad3:0xb61b853ddb570d9!8m2!3d53.9006011!4d27.558972?hl=ru"
+                  class="contact__link" target="_blank" title="location">Minsk, Belarus</a>
               </li>
               <li class="contact__item">
-                <span class="contact__image contact__image_github"></span>
-                <div class="contact__text">
-                  <a href="https://discord.com/channels/@me" class="contact__link" target="_blank"
-                    title="discord">vauchokandrei#0683</a>
-                </div>
+                <span class="contact__name contact__discord"><img class="contact__image"
+                    src="./src/assets/img/icons/discord.svg" alt="discord">Discord: </span>
+                <a href="https://discord.com/channels/@me" class="contact__link" target="_blank"
+                  title="discord">vauchokandrei#0683</a>
               </li>
               <li class="contact__item">
-                <span class="contact__image contact__image_github"></span>
-                <div class="contact__text">
-                  <a href="https://www.linkedin.com/in/andrei-vauchok-961913115/" class="contact__link" target="_blank"
-                    title="linkedin">Andrei Vauchok</a>
-                </div>
+                <span class="contact__name contact__linkedin"><img class="contact__image"
+                    src="./src/assets/img/icons/linkedin-sv.svg" alt="linkedin">Linkedin: </span>
+                <!-- <div class="contact__text"> -->
+                <a href="https://www.linkedin.com/in/andrei-vauchok-961913115/" class="contact__link" target="_blank"
+                  title="linkedin">Andrei Vauchok</a>
+                <!-- </div> -->
               </li>
               <li class="contact__item">
-                <span class="contact__image contact__image_github"></span>
-                <div class="contact__text">
-                  <a href="https://github.com/AndreiVauchok2211" class="contact__link" target="_blank"
-                    title="github">AndreiVauchok2211</a>
-                </div>
+                <span class="contact__name contact__github"><img class="contact__image"
+                    src="./src/assets/img/icons/github.svg" alt="github">GitHub: </span>
+                <!-- <div class="contact__text"> -->
+                <a href="https://github.com/AndreiVauchok2211" class="contact__link" target="_blank"
+                  title="github">AndreiVauchok2211</a>
+                <!-- </div> -->
               </li>
               <li class="contact__item">
-                <span class="contact__image contact__image_github"></span>
-                <div class="contact__text">
-                  <a href="mailto:vauchokandrei@gmail.com" class="contact__link" target="_blank"
-                    title="email">vauchokandrei@gmail.com</a>
-                </div>
+                <span class="contact__name contact__email"><img class="contact__image"
+                    src="./src/assets/img/icons/email.svg" alt="email">Email: </span>
+                <!-- <div class="contact__text"> -->
+                <a href="mailto:vauchokandrei@gmail.com" class="contact__link" target="_blank"
+                  title="email">vauchokandrei@gmail.com</a>
+                <!-- </div> -->
               </li>
               <li class="contact__item">
-                <span class="contact__image contact__image_github"></span>
-                <div class="contact__text">
-                  <a href="tel:+375297429889" class="contact__link" target="_blank" title="phone">+375297429889</a>
-                </div>
+                <span class="contact__name contact__phone"><img class="contact__image"
+                    src="./src/assets/img/icons/phone.svg" alt="phone">Phone: </span>
+                <!-- <div class="contact__text"> -->
+                <a href="tel:+375297429889" class="contact__link" target="_blank" title="phone">+375297429889</a>
+                <!-- </div> -->
               </li>
             </ul>
           </div>
         </section>
-        <section class="education" id="education">
+        <section class="section section__education" id="education">
           <div class="education education__container">
-            <h2 class="education__title">Education</h2>
+            <h2 class="title education__title">Education</h2>
             <ul class="education__list">
               <li class="education__item">
-                <div class="education__date">2009 - 2013</div>
-                <h3 class="education__name"><a class="education__name education__name-link"
-                    href="https://vsu.by/en">Vitebsk State University named after P.M. Masherov</a>
+                <div class="date education__date">2009 - 2013</div>
+                <h3 class="education__name"><a class="education__name education__name-link" href="https://vsu.by/en"
+                    target="_blank" title="vsu">Vitebsk State University named after P.M. Masherov</a>
                 </h3>
-                <p class="education__text"><a class="education__text education__text-link"
+                <p class="education__text"><a class="education__text education__text-link" target="_blank"
+                    title="faculty"
                     href="https://vsu.by/en/university/faculties/faculty-of-physical-culture-and-sports.html">Faculty of
                     Physical Culture and Sports</a></p>
               </li>
               <li class="education__item">
-                <div class="education__date">2019</div>
-                <h3 class="education__name"><a class="education__name education__name-link"
-                    href="https://www.sportedu.by/">Belarusian State University of Physical Education</a>
+                <div class="date education__date">2019</div>
+                <h3 class="education__name"><a class="education__name education__name-link" target="_blank"
+                    title="bgufk" href="https://www.sportedu.by/">Belarusian State University of Physical Education</a>
                 </h3>
-                <p class="education__text"><a class="education__text education__text-link"
+                <p class="education__text"><a class="education__text education__text-link" target="_blank" title="ippk"
                     href="http://ippkbgufk.edu.by/">Institute for Advanced Studies and Retraining of Managers and
                     Specialists of Physical Culture, Sports and Tourism</a></p>
               </li>
             </ul>
           </div>
         </section>
-        <section class="skills" id="skills">
+        <section class="section section__skills" id="skills">
           <div class="skills skills__container">
-            <h2 class="skills__title">Skilss</h2>
+            <h2 class="title skills__title">Skilss</h2>
             <ul class="skills__list">
               <li class="skill__item">JavaSctipt basics</li>
               <li class="skill__item">Java basics</li>
@@ -120,29 +128,158 @@
             </ul>
           </div>
         </section>
-        <section class="languages" id="languages">
+        <section class="section section__languages" id="languages">
           <div class="languages languages__container">
-            <h2 class="languages__title">Languages</h2>
+            <h2 class="title languages__title">Languages</h2>
             <ul class="languages__list">
               <li class="languages__item">Russian - Native</li>
               <li class="languages__item">Belarusian - Native</li>
               <li class="languages__item">English - A1</li>
-              <li class="languages__item">Spanish - A1</li>
             </ul>
           </div>
         </section>
       </div>
       <div class="column column__right">
-        <section class="profile__content" id="profile">
-          <h1 class="profile__title">Andrei Vauchok</h1>
-          <p class="profile__content">Front-end developer (Beginner)</p>
+        <section class="section section__profile" id="profile">
+          <div class="profile__content">
+            <h1 class="profile__title">Andrei <br> <span class="profile__title-surname">Vauchok</span> </h1>
+            <p class="profile__text">Front-end developer (Beginner)
+            </p>
+          </div>
+
         </section>
+        <section class="section section__about-me" id="about-me">
+          <div class="container about-me__container">
+            <h2 class="title about-me__title">About-me</h2>
+            <p class="about-me__text">Hello! My name is Andrei, I live in Minsk. Before entering the university and
+              while studying at it, he professionally played football, became the winner of regional and republican
+              football and futsal competitions. After graduating from the university in 2013, with a break in the army,
+              he worked as a physical education teacher in a college, coached student and amateur teams. I am currently
+              working as a Procurement and Purchasing Specialist for a commercial organization. For about six months I
+              have been studying website layout, HTML5, CSS and Javascript on my own - I hope to acquire the relevant
+              knowledge, skills and abilities for employment as a junior front-end developer. I wish you all good luck!)
+            </p>
+          </div>
+        </section>
+        <section class="section section__courses" id="courses">
+          <div class="courses courses__container">
+            <h2 class="title courses__title">Courses</h2>
+            <ul class="courses__list">
+              <li class="courses__item">
+                <a class="courses__link" href="https://code-basics.com/ru/languages/html" target="_blank"
+                  title="code_basic">Code Basics</a>
+                <span class="courses__name">HTML: Perfect for Beginners (completed)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://code-basics.com/ru/languages/css" target="_blank"
+                  title="code_basic">Code Basics</a>
+                <span class="courses__name">CSS: Free Online Learning for Beginners (completed)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://www.udemy.com/course/javascript-zero-to-junior-developer/   "
+                  target="_blank" title="udemy">Udemy</a>
+                <span class="courses__name">Modern JavaScript - From Zero to Junior Specialist (in progress)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://www.udemy.com/course/android_sumin/  
+                " target="_blank" title="udemy">Udemy</a>
+                <span class="courses__name">Complete course Android + Java from scratch (in progress)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link"
+                  href="https://www.udemy.com/course/java_sumin/learn/lecture/23249804?start=0#overview" target="_blank"
+                  title="udemy">Udemy</a>
+                <span class="courses__name">Java from Zero to Junior + Interview Preparation (in progress)</span>
+              </li>
+              <li class="courses__item">
+                <a class="courses__link" href="https://rs.school/js-stage0/" target="_blank" title="rsschool">RS
+                  School</a>
+                <span class="courses__name">JS/FE Pre-School 2022Q4 (in progress)</span>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section section__code" id="code">
+          <div class="code code__container">
+            <h2 class="title code__title">Code</h2>
+            <p class="code__task">Return the n-th number in the Fibonacci Sequence KATA from CODEWARS <br>
+              <span class="code__text">"Write a
+                function that when given a number (n) returns the n-th number in the Fibonacci Sequence."</span>
+            <pre class="pre">
+                  <code>function nthFibo(n) {
+                    let [previous, current] = [0, 1];
+                    for (let i = 1; i < n; i++) {
+                      [previous, current] = [current, previous + current];
+                    }
+                    return previous;
+                  }</code>
+                </pre>
+            </p>
+
+          </div>
+        </section>
+        <section class="section section__projects" id="projects">
+          <div class="projects projects__container">
+            <h2 class="title projects__title">Projects</h2>
+            <ul class="projects__list">
+              <li class="projects__item">
+                <a class="projects__link" href="https://andreivauchok2211.github.io/rsschool-cv/" target="_blank"
+                  title="CV"><img class="project__image" src="./src/assets/img/icons/favicon-svg.svg"
+                    alt="favicon">Curriculum
+                  Vitae</a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section section__strengths" id="strengths">
+          <div class="strengths strengths__container">
+            <h2 class="title strengths__title">Key strengths</h2>
+            <ul class="strengths__list">
+              <li class="strengths__item">Purposeful</li>
+              <li class="strengths__item">Hardworking</li>
+              <li class="strengths__item">Responsible</li>
+              <li class="strengths__item">Sociable</li>
+              <li class="strengths__item">Conscientious</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section section__hobbies" id="hobbies">
+          <div class="hobbies hobbies__container">
+            <h2 class="title hobbies__title">Hobbies</h2>
+            <ul class="hobbies__list">
+              <li class="hobbies__item">Sport</li>
+              <li class="hobbies__item">Football</li>
+              <li class="hobbies__item">Literature</li>
+              <li class="hobbies__item">Anthropology, sports medicine and physiology</li>
+              <li class="hobbies__item">Cars</li>
+              <li class="hobbies__item">New technologies</li>
+            </ul>
+          </div>
       </div>
     </div>
+    </section>
+    </div>
+    </div>
   </main>
-  <footer></footer>
-  </div>
+  <footer class="footer">
+    <div class="container foother__container">
+      <div class="footer__deveop">
+        <a class="footer__nav-link" target="_blank" title="gith" href="https://github.com/AndreiVauchok2211">
+          <span class="footer__span-img"><img class="footer__image" src="./src/assets/img/icons/github-f.svg"
+              alt="github">
+          </span>
+          <p class="footer__title-link">Andrei
+            Vauchok</p>
+        </a>
+      </div>
+      <p class="footer__year">2022</p>
+      <a class="footer__school" href="https://rs.school/js-stage0/" target="_blank" title="rsschool">
+        <img src="./src/assets/img/icons/rs_school_js.svg" width="110px" height="30px" alt="rsschool">
+      </a>
+    </div>
+  </footer>
 
+  <script src="./src/assets/index.js"></script>
 </body>
 
 </html>

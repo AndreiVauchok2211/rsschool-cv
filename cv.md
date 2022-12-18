@@ -51,7 +51,8 @@ function nthFibo(n) {
 - CSS: Free Online Learning for Beginners on the [code-basics](https://code-basics.com/ru/languages/css) (completed)
 - Modern JavaScript - From Zero to Junior Specialist on the [udemy](https://www.udemy.com/course/javascript-zero-to-junior-developer/) (in progress)
 - Complete course Android + Java from scratch [udemy](https://www.udemy.com/course/android_sumin/) (in progress)
-- RS Schools Course «JavaScript/Front-end» (in progress)
+- Java from Zero to Junior + Interview Preparation [udemy](https://www.udemy.com/course/java_sumin/learn/lecture/23249804?start=0#overview) (in progress)
+- JS/FE Pre-School 2022Q4 [RS School](https://rs.school/js-stage0/) (in progress)
 
 ### **Education**
 
@@ -88,6 +89,5 @@ function nthFibo(n) {
 - Russian - Native
 - Belarusian - Native
 - English - A1
-- Spanish - A1
 
 ---
