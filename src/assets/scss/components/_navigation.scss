@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.navigation__link {
+  margin: 5px;
+}
+
+.navigation__link > a {
+  color: $color-visit;
+  @extend %transition;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+
+  &:hover {
+    color: $color-navigation;
+    @extend %transition;
+    background-size: 100% 2px;
+  }
+}

@@ -1,0 +1,28 @@
+.footer {
+  padding: 20px 30px;
+  background-color: $color-header;
+}
+
+.footer__nav-link {
+  display: flex;
+  align-items: center;
+  @include font($size: 1.8rem, $weight: 500, $height: 2.4rem);
+  color: $color-navigation;
+}
+
+.footer__span-img {
+  vertical-align: middle;
+  margin: 5px;
+  // margin-right: 5px;
+}
+
+.foother__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__year {
+  @include font($size: 1.8rem, $weight: 500, $height: 2.4rem);
+  color: $color-navigation;
+}

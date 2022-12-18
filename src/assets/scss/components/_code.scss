@@ -1,0 +1,21 @@
+.code__task {
+  display: inline-block;
+  padding: 10px 30px;
+  color: $color-navigation;
+  background-color: $color-header;
+  border-radius: 4px;
+}
+
+.code__title {
+  padding-bottom: 10px;
+}
+
+.code__text {
+  color: $color-hovered;
+  font-size: 14px;
+}
+
+.pre {
+  padding: 20px 30px;
+  color: $color-header;
+}

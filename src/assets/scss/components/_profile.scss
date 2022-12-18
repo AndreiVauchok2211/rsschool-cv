@@ -1,0 +1,26 @@
+.section__profile {
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   justify-content: center;
+  padding: 30px;
+}
+
+.profile__title {
+  margin-left: -132px;
+  margin-bottom: 2px;
+}
+
+.profile__title-surname {
+  margin-left: 120px;
+  color: $color-visit;
+}
+
+.profile__text {
+  margin-left: -132px;
+  @include font($size: 1.9rem, $height: 2.4rem, $weight: 500);
+  color: $color-header;
+}
