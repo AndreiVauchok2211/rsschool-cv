@@ -1,0 +1,32 @@
+@import "../scss/reset";
+
+/*abstract*/
+@import "../scss/abstract/constants";
+@import "../scss/abstract/placeholders";
+@import "../scss/abstract/mixins";
+
+/*loyauts*/
+@import "../scss/loyauts/header";
+@import "../scss/loyauts/container";
+@import "../scss/loyauts/footer";
+@import "../scss/loyauts/columns";
+
+/*base*/
+@import "../scss/base/base";
+@import "../scss/base/icons";
+
+/*components*/
+@import "../scss/components/navigation";
+@import "../scss/components/figure";
+@import "../scss/components/contacts";
+@import "../scss/components/education";
+@import "../scss/components/skilss";
+@import "../scss/components/title";
+@import "../scss/components/languages";
+@import "../scss/components/strengths";
+@import "../scss/components/hobbies";
+@import "../scss/components/code";
+@import "../scss/components/projects";
+@import "../scss/components/courses";
+@import "../scss/components/about";
+@import "../scss/components/profile";

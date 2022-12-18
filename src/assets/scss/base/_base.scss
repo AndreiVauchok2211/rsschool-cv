@@ -1,0 +1,39 @@
+html {
+  font-size: 10px;
+  @extend %scrol;
+}
+
+body {
+  @extend %font-prim;
+  @include font($size: 1.6rem, $height: 2.6rem, $weight: normal);
+}
+
+section {
+  padding: 10px 0px 10px 0px;
+}
+
+a {
+}
+
+h1 {
+  @include font($size: 4rem, $height: 4.2rem, $weight: 700);
+  color: $color-header;
+}
+
+h2 {
+  position: relative;
+  padding: 5px 30px;
+  @include font($size: 2.6rem, $weight: 700);
+  color: $color-visit;
+  background-color: $color-navigation;
+}
+
+h3 {
+  @include font($size: 1.8rem, $height: 2.2rem, $weight: 500);
+}
+
+h4 {
+}
+
+h5 {
+}

@@ -89,6 +89,5 @@ function nthFibo(n) {
 - Russian - Native
 - Belarusian - Native
 - English - A1
-- Spanish - A1
 
 ---
