@@ -1,0 +1,540 @@
+@charset "UTF-8";
+/* Обнуление */
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  background-color: #fafafa;
+  font-size: 14px;
+  color: #252b42;
+  font-weight: 500;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*abstract*/
+.courses__link:hover, .projects__link:hover, .education__text:hover, .education__name-link:hover, .contact__link:hover, .navigation__link > a:hover, .navigation__link > a {
+  transition: all 0.3s ease-out;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*loyauts*/
+.header {
+  background-color: #383e4e;
+  padding: 15px 15px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.body__container {
+  max-width: 1440px;
+}
+
+.main__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+@media (max-width: #e7e3e3) {
+  .main__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.code__container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e7e3e3;
+}
+
+.footer {
+  padding: 20px 30px;
+  background-color: #383e4e;
+}
+
+.footer__nav-link {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #e7e3e3;
+}
+
+.footer__span-img {
+  vertical-align: middle;
+  margin: 5px;
+}
+
+.foother__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer__year {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #e7e3e3;
+}
+
+.column {
+  background-color: #f1f1f1;
+  padding: 40px 15px;
+}
+
+/*base*/
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 2.6rem;
+}
+
+section {
+  padding: 10px 0px 10px 0px;
+}
+
+h1 {
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 4.2rem;
+  color: #383e4e;
+}
+
+h2 {
+  position: relative;
+  padding: 5px 30px;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: #ff7549;
+  background-color: #e7e3e3;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+}
+
+/*components*/
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.navigation__link {
+  margin: 5px;
+}
+
+.navigation__link > a {
+  color: #ff7549;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.navigation__link > a:hover {
+  color: #e7e3e3;
+  background-size: 100% 2px;
+}
+
+.photo {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.contacts__list {
+  padding: 20px 5px 10px 30px;
+}
+
+.contact__item {
+  margin-bottom: 10px;
+}
+
+.contact__name {
+  font-size: 18px;
+}
+
+.contact__image {
+  margin-right: 5px;
+}
+
+.contact__link {
+  margin: 0px 5px;
+  color: #4d6f77;
+}
+.contact__link:hover {
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+.education__list {
+  padding: 20px 10px 20px 30px;
+}
+
+.education__item {
+  padding: 10px 0px;
+}
+
+.education__date {
+  margin-bottom: 10px;
+  color: #e7e3e3;
+}
+
+.date {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #383e4e;
+  border-radius: 4px;
+}
+
+.education__name {
+  margin-bottom: 5px;
+}
+
+.education__name-link {
+  color: #4d6f77;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.education__name-link:hover {
+  color: #2f281e;
+  background-size: 100% 2px;
+}
+
+.education__text {
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #2f281e;
+}
+.education__text:hover {
+  text-decoration: underline;
+}
+
+.skills__list {
+  padding: 20px 10px 10px 50px;
+}
+
+.skill__item {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.2rem;
+  color: #4d6f77;
+}
+.skill__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #383e4e;
+  border-radius: 50%;
+  left: -20px;
+  top: 7px;
+}
+
+.languages__list {
+  padding: 20px 10px 10px 50px;
+}
+
+.languages__item {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2rem;
+  color: #4d6f77;
+}
+.languages__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #383e4e;
+  border-radius: 50%;
+  left: -20px;
+  top: 7px;
+}
+
+.strengths__list {
+  padding: 20px 30px 10px 50px;
+}
+
+.strengths__item {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #2f281e;
+}
+.strengths__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #383e4e;
+  border-radius: 50%;
+  left: -20px;
+  top: 7px;
+}
+
+.hobbies__list {
+  padding: 20px 30px 10px 50px;
+}
+
+.hobbies__item {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #2f281e;
+}
+.hobbies__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: #383e4e;
+  border-radius: 50%;
+  left: -20px;
+  top: 7px;
+}
+
+.code__task {
+  display: inline-block;
+  padding: 10px 30px;
+  color: #e7e3e3;
+  background-color: #383e4e;
+  border-radius: 4px;
+}
+
+.code__title {
+  padding-bottom: 10px;
+}
+
+.code__text {
+  color: #ff9900;
+  font-size: 14px;
+}
+
+.pre {
+  padding: 20px 30px;
+  color: #383e4e;
+}
+
+.projects__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 30px;
+}
+
+.projects__item {
+  margin-top: 10px;
+  padding: 5px 5px;
+}
+
+.project__image {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.projects__link {
+  padding: 5px;
+  margin: 5px 0px;
+  color: #4d6f77;
+  font-size: 2.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.4rem;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.projects__link:hover {
+  color: #ff9900;
+  background-size: 100% 2px;
+}
+
+.courses__list {
+  padding: 20px 30px 5px 50px;
+}
+
+.courses__item {
+  position: relative;
+  margin-bottom: 5px;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+  color: #383e4e;
+}
+.courses__item::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #383e4e;
+  border-radius: 50%;
+  left: -20px;
+  top: 11px;
+}
+
+.courses__link {
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  color: #4d6f77;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+}
+.courses__link:hover {
+  color: #ff9900;
+  background-size: 100% 2px;
+}
+
+.about-me__text {
+  padding: 20px 30px;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.6rem;
+  color: #383e4e;
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.profile__title {
+  margin-left: -132px;
+  margin-bottom: 2px;
+}
+
+.profile__title-surname {
+  margin-left: 120px;
+  color: #ff7549;
+}
+
+.profile__text {
+  margin-left: -132px;
+  font-size: 1.9rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.4rem;
+  color: #383e4e;
+}/*# sourceMappingURL=style.css.map */
