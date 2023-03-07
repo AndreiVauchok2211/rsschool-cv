@@ -1,0 +1,22 @@
+.hobbies__list {
+  padding: 20px 30px 10px 50px;
+}
+
+.hobbies__item {
+  position: relative;
+  margin-bottom: 5px;
+  @include font($size: 1.8rem, $weight: 400, $height: 2rem);
+  color: $color-heading;
+
+  &::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: $color-header;
+    border-radius: 50%;
+    left: -20px;
+    top: 7px;
+  }
+}

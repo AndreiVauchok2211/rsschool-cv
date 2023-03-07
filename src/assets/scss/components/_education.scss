@@ -1,0 +1,48 @@
+.education__list {
+  padding: 20px 10px 20px 30px;
+}
+
+.education__item {
+  padding: 10px 0px;
+}
+
+.education__date {
+  margin-bottom: 10px;
+  color: $color-navigation;
+}
+
+.date {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: $color-header;
+  border-radius: 4px;
+}
+
+.education__name {
+  margin-bottom: 5px;
+}
+
+.education__name-link {
+  color: $color-contacts;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+
+  &:hover {
+    color: $color-heading;
+    @extend %transition;
+    background-size: 100% 2px;
+  }
+}
+
+.education__text {
+  @include font($size: 1.4rem, $height: 2rem, $weight: 400);
+  color: $color-heading;
+
+  &:hover {
+    text-decoration: underline;
+    @extend %transition;
+  }
+}
